@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: Inter;
+    font-family: Roboto;
 }
 
 .wrapper {
@@ -70,7 +70,7 @@ body {
     padding-left: 40px;
     padding-bottom: 85px;
     display: inline-block;
-    
+    vertical-align: top;
 }
 
 
@@ -85,7 +85,7 @@ body {
 }
 
 .h1 {
-    width: 550px;
+    width: 530px;
     font-size: 67px;
     text-transform: uppercase;
     line-height: 70px;
@@ -116,5 +116,6 @@ body {
 }
 
 .img-big-plant {
-    margin-left: 93px;
+    margin-left: 90px;
+    margin-top: 12px;
 }
