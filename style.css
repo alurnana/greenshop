@@ -14,14 +14,17 @@ body {
 }
 
 .header {
-    margin-top: 30px;
-    margin-bottom: 12px;
     border-bottom: 0.3px solid rgba(70, 163, 88, 0.5) ;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .logo {
     display: inline-block;
     vertical-align: middle;
+    max-width: 150px;
 }
 
 .logo img {
@@ -30,9 +33,20 @@ body {
 }
 
 .login {
-    vertical-align: top;
-    
+    padding: 10px 15px;
+    height: 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #46A358;
+    border-radius: 6px;
+    font-weight: 500;
 }
+.login>p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+}
+
 
 .navigation-bar {
     display: inline-block;
@@ -48,9 +62,6 @@ body {
     display: inline-block;
 }
 
-.last-child {
-    margin-right: 340px;
-}
 
 .active {
     padding-bottom: 25px;
@@ -74,7 +85,7 @@ body {
 }
 
 
-.h2 {
+.subtitle {
     margin: 0;
     margin-bottom: 7px;
     font-size: 14px;
@@ -84,7 +95,7 @@ body {
     ;
 }
 
-.h1 {
+.title {
     width: 530px;
     font-size: 67px;
     text-transform: uppercase;
@@ -94,25 +105,29 @@ body {
     color: rgba(61, 61, 61, 1);
 }
 
-.h1>span {
+.title>span {
     background: none;
     color: #46A358;
 }
 
-.p {
+.desc {
     color: rgba(114, 114, 114, 1);
     font-size: 14px;
-    margin: 0;
-    margin-top: 5px;
+    margin: 5px 0 40px;
     line-height: 24px;
     width: 555px;
     font-weight: 400;
 }
 
-.button-shop-now-image>img {
-    margin: 0;
-    margin-top: 45px;
-
+.button-shop-now {
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #46A358;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .img-big-plant {
